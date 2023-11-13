@@ -208,9 +208,30 @@ const BLOG = {
     {
       name: '西游伏妖篇-酒馆音乐',
       artist: '小旭音乐',
-      url: 'https://sg-sycdn.kuwo.cn/8e10ee2728d897da8a88cefddf93ba13/65507183/resource/n3/9/5/166856290.mp3',
+      url: 'https://sharefs.hw.kugou.com/202311132203/9e092258c1065e84aa19ed39d2f02843/v3/63322264d89ffa1bff49ff29bf134cf1/yp/full/a1000_u0_p409_mx122914266_s3927767480.mp3',
       cover:
             'https://jsdelivr.pai233.top/gh/chankolha/blog-img@main/202311121440994.jpg'
+    },
+    {
+      name: '城隍庙',
+      artist: '黄嘉毅',
+      url: 'http://lv.sycdn.kuwo.cn/30ef600e56f103d0e58241221e86ff4a/65522d1a/resource/30106/trackmedia/M500002tnEeu3OKktM.mp3',
+      cover:
+            'https://jsdelivr.pai233.top/gh/chankolha/blog-img@main/202311132210483.png'
+    },
+    {
+      name: 'Infinity',
+      artist: 'Jaymes Young',
+      url: 'http://lg.sycdn.kuwo.cn/079f79874e01df714bc34c46d0b32976/65522e18/resource/n1/77/60/3246203977.mp3',
+      cover:
+            'https://jsdelivr.pai233.top/gh/chankolha/blog-img@main/202311132214360.jpg'
+    },
+    {
+      name: 'Empty Love',
+      artist: 'Lulleaux,Kid Princess',
+      url: 'http://lw.sycdn.kuwo.cn/8136e04bf88fd380eda351c2657aebe3/65522edc/resource/30106/trackmedia/M5000045yPMT0nwarM.mp3',
+      cover:
+            'https://jsdelivr.pai233.top/gh/chankolha/blog-img@main/202311132217036.png'
     }
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
